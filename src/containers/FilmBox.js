@@ -1,7 +1,7 @@
 import React, {useState}from 'react';
 import FilmList from "../components/FilmList";
 
-// import "./App.css";
+
 
 const FilmBox = () => {
     const [film, setFilm] = useState(
@@ -24,7 +24,8 @@ const FilmBox = () => {
               },
               {
                 id: 4,
-                name: "The Lego Movie 2: The Second Part", url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
+                name: "The Lego Movie 2: The Second Part", 
+                url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
               },
               {
                 id: 5,
@@ -38,9 +39,11 @@ const FilmBox = () => {
     return(
         <>
         <h1>Upcoming Film Releases for Uk</h1>   
-
-        <FilmList film = {film}/>   
-        
+          <hr></hr>
+          <div class = "container">
+            <FilmList film = {film}/>   
+            </div>
+          <hr></hr>
         </>
 
        );

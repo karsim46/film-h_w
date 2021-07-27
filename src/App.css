@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.app-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -38,8 +38,51 @@
 }
 
 h1 {
-  font-size: 1cm;
+  display: flex;
+  flex-wrap:wrap-reverse;
+  width: 300px; 
+  margin: 0 auto; 
+  font-size: 0.5cm;
   font-family: fantasy;
-  color: blue;
+  border-radius: 5px;
+  background:blue;
+  color:white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
   
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px; 
+  margin: 0 auto; 
+}
+
+html {
+  background-color:#61dafb;
+  font-size: larger;
+  margin: 1cm;
+  
+}
+
+ul {
+  color: blue;
+  border: 1px solid black;
+  border-radius: 5%;
+  margin: 0.5rem 0.5rem;
+  background-color: lavender;
+
+}
+
+button {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px; 
+  margin: 0 auto; 
+  padding: 1px;
+  background-color: blue;
+  font-size: calc(7px + 2vmin);
+  color: white;
 }
